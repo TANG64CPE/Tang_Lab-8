@@ -29,7 +29,7 @@ int main()
     cout << "Fahsai: I think you are an Engineering student. What is your student ID?" << endl;
     cout << name << ": ";
     cin >> id;
-    cout << "Fahsai: I think you may be GEAR 54. I have a free movie ticket for you." << endl;
+    cout << "Fahsai: I think you may be GEAR "<< int(id/1e7)-12 << ". I have a free movie ticket for you." << endl;
     cout << "Fahsai: Let's go to the cinema together!!!" << endl;
     cout << "Fahsai: What movie do you want to watch?" << endl;
     cin.ignore();
